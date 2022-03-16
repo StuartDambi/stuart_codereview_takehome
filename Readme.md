@@ -50,4 +50,34 @@ this was good documentation
 
 ## Section B: [Respository Link](https://github.com/StuartDambi/hypergadgets) | [Application Link](https://hypergadgets.tech)
 
-## Section C: 
+## Section C: Code Challenge
+I Chose say the Number. 
+- [Frontend Live Link](https://stuart-hyperiondev.netlify.app/)
+- [Backend Live Link] (https://hyperiondev-stuart.herokuapp.com/)
+
+
+The end point for converting a number to a word is https://hyperiondev-stuart.herokuapp.com/api/v1/numberinwords
+** Method - POST
+** Body - number -integer
+
+I built a nodejs application for the backend and a reactjs application for the frontend.
+The Backend end code is in the `main` Branch and the Frontend code is in the `front-end` branch
+
+How to use the App:
+Clone the repository
+```bash
+git clone https://github.com/StuartDambi/stuart_codereview_takehome.git
+cd stuart_codereview_takehome
+```
+1. At this point you are at the `main` branch.
+Save all the contents on the folder in another folder then inside your new folder:
+`Install the dependecies using the command yarn or npm install`
+Run the app using the command `yarn start` or `npm run start`
+The app will run at `localhost:5500`
+
+2. Go back to the `stuart_codereview_takehome` Folder and change to the front-end branch
+using the command `git checkout front-end`.
+Again install the dependencies using the command `yarn or npm install`
+After that run the app using the command `yarn start` or `npm start`
+This will start the app and it will open in the browser at `localhost:3000`
+Continue to use the application.
