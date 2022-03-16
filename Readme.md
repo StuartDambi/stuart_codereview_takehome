@@ -53,7 +53,7 @@ this was good documentation
 ## Section C: Code Challenge
 I Chose say the Number. 
 - [Frontend Live Link](https://stuart-hyperiondev.netlify.app/)
-- [Backend Live Link] (https://hyperiondev-stuart.herokuapp.com/)
+- [Backend Live Link](https://hyperiondev-stuart.herokuapp.com/)
 
 
 The end point for converting a number to a word is https://hyperiondev-stuart.herokuapp.com/api/v1/numberinwords
