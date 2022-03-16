@@ -10,9 +10,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "number-to-words": "^1.2.4"
-  },
-  "devDependencies": {
+    "number-to-words": "^1.2.4",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/number-to-words": "^1.2.1",
