@@ -1,53 +1,46 @@
-# HyperrionDev-THT
-This repository contains submissions by Dambi Stuart for the HyperionDev Code Reviewer Test Assessment.
-It is broken down into section as stated below.
-- Section A
-- Section B
-- Section C
+# Getting Started with Create React App
 
-## SECTION A: Code Review
-Python Task
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Submission Review
-Thank you for your submission, I ran your code locally on my computer and below are my reviews.
+## Available Scripts
 
-#### Correctness
-1. I noticed indention inconsistencies on your code on 3, 4, 5, 6, 7 and 8.This generally will make your code fail to compile
-and throw an `IndentationError`. I would advise that you use a Code Editor (for example `VSCODE`), this would help you notice
-these indention errors before compiling.
-2. On Line 5 `x = "".join(sorted())`, the method `sorted()` expects One Argument which is not provided. This is most likely your varaible `i`
-3. Generally, with those fixes your algorithm should work fine.
+In the project directory, you can run:
 
-```python
-class Solution:
-      def groupAnagrams(self, strs):
-          result = {}
-          for i in strs:
-              x = "".join(sorted(i))
-              if x in result:
-                  result[x].append(i)
-              else:
-                  result[x] = [i]
-          return list(result.values())
-ob1 = Solution()
-print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-```
+### `npm start`
 
-#### Style
-1. As I mentioned in my first observation, please choose a good code editor which will help you maintain and spot
-the indention of your code, and try to maintain it throughout your code.
-2. I also encourage you to comment your code for easy following up of your code and what you are doing.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Efficiency
-I want to appreciate that you have a good understanding of the Python Syntax, and you are building an Object Oriented Programming Culture in 
-your coding style. Keep that up!
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-#### Documentation
-The Documentation of the programming challenge was good, it gave a clear description of the task to be done
-and also gave a good description of the terms `(forexample Anagram)` which were used in the description. In my opinion,
-this was good documentation
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Section B: [Respository Link](https://github.com/StuartDambi/hypergadgets) | [Application Link](https://hypergadgets.tech)
+### `npm run build`
 
-## Section C: 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
